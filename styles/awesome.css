@@ -1,28 +1,9 @@
-* {
-    margin: 0 auto;
-}
-
-.main {
-    font-family: 'Raleway';
-}
-
-.awesome,.pricing,.container{
-    width: 1170px;
-}
-.main__title{
-   font-size: 36px; 
-   font-weight: 400;
-   text-align: center;
-   line-height : 150px;
-}
-
 .main-awesome{
     width: 100%;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
-
 
 .section-item__title {
    font-family: 'Open Sans';
@@ -34,6 +15,7 @@
 }
 
 .section-item__description{
+    font-family: 'Raleway';
     font-size: 18px; 
     font-weight: 400;
 }

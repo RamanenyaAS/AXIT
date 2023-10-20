@@ -1,11 +1,29 @@
+* {
+    margin: 0 auto;
+}
+
+.awesome,.pricing,.container{
+    width: 1170px;
+    padding-bottom: 50px;
+}
+
+.main__title{
+    font-family: 'Raleway';
+   font-size: 36px; 
+   font-weight: 400;
+   text-align: center;
+   line-height : 150px;
+}
+
 .main__subheading{
+    font-family: 'Raleway';
     font-size: 18px; 
     font-weight: 400;
     text-align: center;
     color: #86878B;
     margin-bottom: 71px;
  }
- 
+
 .main__separator{
     width: 170px;
     border: .5px solid #EC7979 ;
