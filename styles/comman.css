@@ -1,0 +1,14 @@
+.main__subheading{
+    font-size: 18px; 
+    font-weight: 400;
+    text-align: center;
+    color: #86878B;
+    margin-bottom: 71px;
+ }
+ 
+.main__separator{
+    width: 170px;
+    border: .5px solid #EC7979 ;
+    margin: auto; 
+    margin-bottom: 40px;
+}
