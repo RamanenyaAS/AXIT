@@ -1,11 +1,11 @@
-.pricing{
+.pricing-bg{
+    width: 100%;
     background-color: #F5F5F5;
 }
 .main__box {
     height: 554px;
     display: flex;
     justify-content: space-between;
-  
 }
 .box__title {
     display: flex;
@@ -17,7 +17,7 @@
     font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 700;
-    background-color: black;
+    background-color: #333;
     border: 2px solid #F5F5F5;
     text-transform: capitalize;
 }
@@ -30,7 +30,7 @@
     font-family: 'Raleway';
     font-size: 36px;
     font-weight: 700;
-    background-color: black;
+    background-color: #333;
     border: 2px solid #F5F5F5;
 }
 .box__subheading {
@@ -42,7 +42,7 @@
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
-    background-color: black;
+    background-color: #333;
     border: 2px solid #F5F5F5;
 }
 .box__caption {

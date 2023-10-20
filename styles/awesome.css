@@ -1,13 +1,14 @@
 * {
-    margin: 0;
-}
-
-.main {
-    width: 1170px;
-    font-family: 'Raleway';
     margin: 0 auto;
 }
 
+.main {
+    font-family: 'Raleway';
+}
+
+.awesome,.pricing,.container{
+    width: 1170px;
+}
 .main__title{
    font-size: 36px; 
    font-weight: 400;
