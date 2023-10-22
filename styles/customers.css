@@ -1,0 +1,54 @@
+.customers-reviews{
+    display: flex;
+    column-gap: 30px;
+}
+
+.review__comment{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 180px;
+    border-radius: 10px;
+    background: #E2E2E2;
+    color: #86878B;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.review__triangle{
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    position: relative;
+    left: 70px;
+    margin-bottom: 46px;
+}
+
+.customer{
+    display: flex;
+    align-items: flex-start;
+}
+
+.customer__photo{
+    margin-right: 30px;
+}
+
+.customer-data{
+    padding-top: 10px;
+}
+
+.customer-data__name{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.customer-data__position{
+    width: 270px;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
