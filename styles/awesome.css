@@ -1,11 +1,10 @@
-.main-awesome{
-    width: 100%;
+.awesome{
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-.section-item__title {
+.section-item__title{
    font-family: 'Open Sans';
    font-size: 24px; 
    font-weight: 700;

@@ -1,13 +1,13 @@
-* {
+*{
     margin: 0 auto;
 }
 
-.awesome,.pricing,.container{
+.container{
     width: 1170px;
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
-.main__title{
+.container-header__title{
     font-family: 'Raleway';
    font-size: 36px; 
    font-weight: 400;
@@ -15,7 +15,7 @@
    line-height : 150px;
 }
 
-.main__subheading{
+.container-header__subheading{
     font-family: 'Raleway';
     font-size: 18px; 
     font-weight: 400;
@@ -24,7 +24,7 @@
     margin-bottom: 71px;
  }
 
-.main__separator{
+.container-header__separator{
     width: 170px;
     border: .5px solid #EC7979 ;
     margin: auto; 
