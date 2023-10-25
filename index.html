@@ -4,15 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AXIT</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/media.css">
     <link rel="stylesheet" href="styles/awesome.css">
     <link rel="stylesheet" href="styles/comman.css">
     <link rel="stylesheet" href="styles/tabs.css">
     <link rel="stylesheet" href="styles/pricing.css">
     <link rel="stylesheet" href="styles/customers.css">
+    <link rel="stylesheet" href="styles/design.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="container container_header">
+            <a href="logo">
+                <img class="logo__img" src="images/AXIT_header.svg" alt="AXIT icon">
+            </a>
+            <nav class="nav">
+                <a class="nav__link" href="">Features</a>
+                <a class="nav__link" href="">About</a>
+                <a class="nav__link" href="">Pricing</a>
+                <a class="nav__link" href="">Reviews</a>
+                <a class="nav__link" href="">Contact</a>
+            </nav>
+        </div>
+    </header>
     <main class="main">
+        <div class="media">
+            <div class="container container_social">
+                <div class="social">
+                    <div class="social-left">
+                        <div class="social-left__title">Social Media</div>
+                        <div class="social-left__caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                            Aenean euismod bibendum laoreet.</div>
+                    </div>
+                    <div class="social-right">
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/facebook.svg" alt="facebook icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/twitter.svg" alt="twitter icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/linkedin.svg" alt="linkedin icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/pinterest.svg" alt="pinterest icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/instagram.svg" alt="instagram icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/github.svg" alt="github icon">
+                        </a>
+                        <a class="social-right__link" href>
+                            <img class="social-right__img" src="images/rss.svg" alt="rss icon">
+                        </a>               
+                    </div>
+                </div>
+            </div>
+        </div>
         <section class="container">
             <ul class="tab-list">
                 <li class="tab-item">
@@ -172,6 +224,44 @@
                 </div>
             </div>
         </section>
+        <section class="container-design">   
+            <div class="wrapper-bg">
+                <div class="container-header">    
+                    <h2 class="container-header__title container-header__title_design">STYLISH AXURE DESIGN</h2>
+                    <div class="container-header__separator container-header__separator_design"></div>
+                    <h5 class="container-header__subheading container-header__subheading_design">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</h5>
+                </div>
+                <div class="design">
+                    <button class="design__button design__button_hover design__button_active">Download</button>
+                </div>
+            </div>
+        </section>   
     </main>
+    <footer class="footer">
+        <div class="footer-list">
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/facebook_footer.svg" alt="facebook icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/twitter_footer.svg" alt="twitter icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/linkedin_footer.svg" alt="linkedin icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/pinterest_footer.svg" alt="pinterest icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/instagram_footer.svg" alt="instagram icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/github_footer.svg" alt="girhub icon">
+            </a>
+            <a class="footer-list__link" href>
+                <img class="footer-list__img" src="images/rss_footer.svg" alt="rss icon">
+            </a>
+        </div>
+        <p class="footer__info">© 2015 Axure Themes</p>
+    </footer>
 </body>
 </html>

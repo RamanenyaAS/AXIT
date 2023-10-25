@@ -1,0 +1,31 @@
+.header{
+    background: rgba(0, 0, 0, 1);
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+
+.container_header{
+    padding: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+}
+
+.nav__link{
+    text-decoration: none;
+    width: 114px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+}

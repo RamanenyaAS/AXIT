@@ -1,0 +1,18 @@
+footer{
+    width: 100%;
+    background: #000;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-list__link{
+    text-decoration: none;
+    margin-right: 33px;
+}
+
+.footer__info{
+    padding: 27px 0px;
+    color: rgba(255, 255, 255, 0.50);
+    font-family: 'Raleway';
+    font-size: 18px;
+}

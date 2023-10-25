@@ -1,0 +1,39 @@
+.container_social{
+    padding: 0 !important;
+}
+
+.media{
+    width: 100%;
+    background: #F8EFEF;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+.social-left__title{
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 18px;
+}
+
+.social-left__caption{
+    color: #86878B;
+    font-family: 'Raleway';
+    font-size: 18px;
+}
+
+.social-right{
+    display: flex;
+    align-items: center;
+    width: 670px;
+}
+
+.social-right__img{
+    width: 70px;
+    height: 70px;
+}
