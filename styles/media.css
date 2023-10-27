@@ -1,5 +1,5 @@
 .container_social{
-    padding: 0 !important;
+    width: 1170px;
 }
 
 .media{
@@ -13,11 +13,14 @@
     padding: 15px 0px;
 }
 
+.social-left{
+    margin: 0;
+}
+
 .social-left__title{
     font-family: 'Open Sans';
     font-size: 24px;
     font-weight: 700;
-    text-transform: capitalize;
     padding-bottom: 18px;
 }
 
@@ -31,6 +34,7 @@
     display: flex;
     align-items: center;
     width: 670px;
+    margin: 0;
 }
 
 .social-right__img{

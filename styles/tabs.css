@@ -8,7 +8,6 @@
 .tab-item__button{
     font-family: 'Open Sans';
     font-size: 14px;
-    font-weight: 400;
     display: flex;
     width: 184px;
     height: 40px;
@@ -35,7 +34,6 @@ li:last-child{
 .tab-block{
     width: 1170px;
     display: inline-flex;
-    justify-content: space-between;
     border: 1px solid #C6CBCD;
     border-top: 0;
 }

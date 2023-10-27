@@ -11,8 +11,8 @@
 }
 
 .price-item{
-    align-self: flex-end;
     cursor: pointer;
+    margin: 0;
 }
 
 .price-item_hover:hover{
@@ -33,7 +33,6 @@
     font-weight: 700;
     background-color: #333;
     border: 2px solid #F5F5F5;
-    text-transform: capitalize;
 }
 
 .price-item__price{
