@@ -1,0 +1,54 @@
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.contact-left{
+    margin: 0;
+}
+
+.contact-left__input{
+    display: flex;
+    width: 571px;
+    margin-bottom: 50px;
+    padding-bottom: 16px;
+    border: 0;  
+    border-bottom: 1px solid #BDBDBD;
+    color: rgb(71, 71, 71);
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.contact-left__input:last-child{
+    margin-bottom: 0;
+}
+
+.contact-right{
+    margin: 0;
+}
+
+.contact-right__message{
+    resize: none;
+    width: 569px;
+    height: 206px;
+    border: 0;  
+    border-bottom: 1px solid #BDBDBD;
+    color: rgb(71, 71, 71);
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.contact-form__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EC7979;
+    width: 370px;
+    height: 58px;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+}

@@ -33,3 +33,7 @@
     border: .5px solid #EC7979 ;
     margin-bottom: 40px;
 }
+
+textarea, input{
+    outline: none;
+}
