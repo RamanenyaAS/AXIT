@@ -13,6 +13,7 @@
 .price-item{
     cursor: pointer;
     margin: 0;
+    width: 370px;
 }
 
 .price-item_hover:hover{
@@ -23,7 +24,6 @@
 
 .price-item__title{
     display: flex;
-    width: 370px;
     height: 60px;
     justify-content: center;
     align-items: center;
@@ -73,4 +73,36 @@
     font-size: 18px;
     font-weight: 400;
     text-transform: capitalize;
+}
+
+@media (max-width:1190px){
+    .price-item{
+        width: 300px;
+    }
+}
+
+@media (max-width: 960px){
+    .price-list{
+        flex-wrap: wrap;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .price-item{
+        padding: 15px;
+    }
+    .price-item__title{
+        font-size: 18px;
+    }
+    .price-item__price{
+        font-size: 24px;
+    }
+    .price-item__duration,.price-item__info{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:380px){
+    .price-item{
+        width: 240px;
+    }
 }

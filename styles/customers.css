@@ -1,13 +1,16 @@
 .customers-reviews{
     display: flex;
     column-gap: 30px;
+    justify-content: center;
 }
-
+ 
+.review{
+    margin: 0;
+}
 .review__comment{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 370px;
     height: 180px;
     border-radius: 10px;
     background: #E2E2E2;
@@ -15,17 +18,22 @@
     text-align: center;
     font-family: 'Raleway';
     font-size: 18px;
+    position: relative;
+    margin-bottom: 65px;
 }
 
-.review__triangle{
-    width: 0;
+
+.review__comment::after {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 20px solid #E2E2E2;
-    position: relative;
+    border-top: 20px solid rgba(226, 226, 226, 1);
+    content: "";
+    height: 0;
+    position: absolute;
     left: 70px;
-    margin-bottom: 46px;
-}
+    top: 100%;
+    width: 0;
+  }
 
 .customer{
     display: flex;
@@ -33,7 +41,7 @@
 }
 
 .customer__photo{
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 .customer-data{
@@ -48,7 +56,60 @@
 }
 
 .customer-data__position{
-    width: 270px;
     font-family: 'Raleway';
     font-size: 18px;
 }
+
+.customer__photo_small,.review__dots{
+    display: none;
+}
+
+@media (max-width:1190px){
+    .customers-reviews{
+        column-gap: 20px;
+    }
+    .review__comment{
+        font-size: 14px;
+    }
+    .customer__photo{
+        padding-right: 20px;
+    }
+    .customer-data{
+        padding-top: 0;
+    }
+    .customer-data__name{
+        font-size: 18px;
+    }
+    .customer-data__position{
+        font-size: 14px;
+    }
+}
+@media (max-width: 730px) {
+    .review:first-of-type,
+    .review:last-of-type{
+      display: none;
+    }
+    .review {
+      width: 70%;
+      text-align: center;
+    }
+    .customer{
+        justify-content: center;
+    }
+    .customer__photo{
+        display: none;
+    }
+    .customer__photo_small,.review__dots{
+        display: flex;
+    }
+    .customer__photo_small{
+        margin: 0;
+        padding-right: 15px;
+    }
+    .customer-data{
+        margin: 0;
+    }
+    .review__dots{
+        padding-top: 25px;
+    }
+  }

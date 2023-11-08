@@ -32,7 +32,6 @@ li:last-child{
 }
 
 .tab-block{
-    width: 1170px;
     display: inline-flex;
     border: 1px solid #C6CBCD;
     border-top: 0;
@@ -81,4 +80,59 @@ li:last-child{
 
 .block-right{
     display: inline-flex;
+}
+
+.block-right__statue_little{
+    display: none;
+}
+
+@media (max-width:1180px){
+    .tab-block,.tab-list{
+        width: 95%;
+    }
+    .block-left__caption{
+        font-size: 24px;
+    }
+    .block-left__text{
+        font-size: 14px;
+    }
+    .block-left{
+        margin-left: 20px;
+    }
+    .block-left__button{
+        width: 240px;
+    }    
+    .block-right__statue_little{
+        display: flex;
+    }
+    .block-right__statue{
+        display: none;
+    }
+}
+
+@media (max-width:730px){
+    .block-left{
+        margin-left: none;
+    }
+    .block-left__caption{
+        font-size: 18px;
+    }
+    .block-left__text{
+        font-size: 13px;
+    }
+    .block-left__button{
+        width: 210px;
+    }  
+    .block-right__statue{
+        display: none;
+    }
+    li:last-child{
+        display: none;
+    }
+    .tab-item__button{
+        width: 100%;
+    }
+    .block-right__statue_little{
+        display: none;
+    }
 }

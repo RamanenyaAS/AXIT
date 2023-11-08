@@ -41,3 +41,42 @@
     width: 70px;
     height: 70px;
 }
+.social-right__img_small{
+    display: none;
+}
+/* max-width:1190px уберет скролл*/
+@media (max-width:1170px){
+    .container_social{
+        width: 95%;
+    }
+    .social-left__title{
+        font-size: 18px;
+        padding-bottom: 13px;
+    }
+    
+    .social-left__caption{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:660px){
+    .social{
+        display: block;
+        text-align: center;
+    }
+    .social-right__img_small{
+        display: inline-block;
+    }
+    .social-right__img{
+        display: none;
+    }
+    .social-left__caption{
+        padding-bottom: 30px;
+    }
+    .social-right{
+        display: inline;
+    }
+    .social-right__link{
+        text-decoration: none;
+    }
+}

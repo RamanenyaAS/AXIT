@@ -52,3 +52,36 @@
     font-weight: 600;
     border: 0;
 }
+
+@media (max-width:1170px){
+    .contact-left,.contact-righ,.contact-left__input,.contact-right__message{
+    width: 450px;
+    }
+    .contact-form__button{
+        width: 320px;
+    }
+}
+
+@media (max-width: 960px){
+    .contact-left,.contact-righ,.contact-left__input,.contact-right__message{
+        width: 300px;
+        }
+        .contact-form__button{
+            width: 280px;
+        }
+}
+
+@media (max-width:650px){
+    .contact-left,.contact-righ,.contact-left__input,.contact-right__message{
+        width: 260px;
+    }
+    .contact-section{
+        display: block;
+    }
+    .contact-form,.contact-form__button{
+        width: 255px;
+    }
+    .contact-right__message{
+        margin-right: 0;
+    }
+}

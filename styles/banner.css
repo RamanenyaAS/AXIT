@@ -142,3 +142,75 @@
     background: #EC7979;
     box-shadow: 0px 0px 10px 0px #AB4949 inset;
 }
+/* max-width:1190px уберет скролл*/
+@media (max-width:1190px){
+    .container_position{
+        width: 95%;
+    }
+    .banner-block__title{
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+    .banner-block__separator{
+        width: 115px;
+        margin-bottom: 30px;
+    
+    }
+    .banner-block__subheading{
+        font-size: 14px;
+        margin-bottom: 30px;
+    } 
+    .banner-block__button{
+        width: 183px;
+        height: 50px;
+    }
+    .banner-form{
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        text-align: center;
+        width: 380px;
+        height: 437px;
+    }
+    .banner-form__title{
+        font-size: 18px;
+    }
+    .banner-form__button{
+        width: 380px;
+    }
+}
+
+@media (max-width: 690px){
+    .container_position{
+        display: block;
+        text-align: center;
+    }
+    .banner-block__img{
+        display: none;
+    }
+    .banner-block__title{
+        font-size: 36px;
+    }
+    .banner-block__separator{
+        display: inline-block;
+        width: 134px;
+    }
+    .banner-block__button{
+        display: inline-block;
+        width: 260px;
+    }
+    .banner-form,.banner-form__button{
+        width: 270px;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 320px){
+    .banner-block__button{
+        display: inline-block;
+        width: 230px;
+    }
+    .banner-form,.banner-form__button{
+        width: 230px;
+        display: inline-block;
+    }
+}

@@ -16,3 +16,22 @@ footer{
     font-family: 'Raleway';
     font-size: 18px;
 }
+
+.footer-list__img_small{
+    display: none;
+}
+
+@media (max-width:640px){
+    .footer-list__link{
+    margin-right: 15px;
+    }
+    .footer-list__img_small{
+        display: inline-block;
+    }
+    .footer-list__img{
+        display: none;
+    }
+    .footer__info{
+        font-size: 14px;
+    }
+}

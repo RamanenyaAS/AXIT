@@ -6,7 +6,6 @@
 }
 
 .container_header{
-    width: 1170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,4 +29,27 @@
     font-family: 'Open Sans';
     font-size: 14px;
     font-weight: 600;
+}
+
+.nav__burger{
+    display: none;
+}
+
+@media (max-width: 1170px){
+    .container_header{
+        width: 95%;
+    }
+}
+
+@media (max-width:760px){
+    .nav__link{
+        display: none;
+    }
+    .nav__burger{
+        display: flex;
+        padding-right: 10px;
+    }
+    .logo__img{
+        padding-left: 10px;
+    }
 }

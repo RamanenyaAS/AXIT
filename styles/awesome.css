@@ -22,3 +22,30 @@
 .section-item{
     margin: 0;
 }
+
+@media (max-width: 1170px){
+    .container_awesome{
+        width: 95%;
+    }
+    .section-item,.section-item__title {
+        width: 215px;
+    }
+    .section-item__title{
+        font-size: 18px; 
+     }
+     
+     .section-item__description{
+         font-size: 14px; 
+     }
+}
+
+@media (max-width:700px){
+    .awesome{
+        flex-wrap: wrap;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .section-item{
+        padding: 15px;
+    }
+}
