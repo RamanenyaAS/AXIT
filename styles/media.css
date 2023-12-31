@@ -45,7 +45,7 @@
     display: none;
 }
 /* max-width:1190px уберет скролл*/
-@media (max-width:1170px){
+@media (max-width:1190px){
     .container_social{
         width: 95%;
     }
