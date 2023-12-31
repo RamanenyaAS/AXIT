@@ -129,6 +129,9 @@ li:last-child{
     li:last-child{
         display: none;
     }
+    .tab-item{
+        width: 100%;
+    }
     .tab-item__button{
         width: 100%;
     }
